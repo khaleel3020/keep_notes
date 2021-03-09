@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header {
+    background-color: rgb(228, 172, 18);
+    height: auto;
+    padding-left: 5%;
+    padding: 1% 0 1% 5%;
+    /* font-size: 30px; */
+    display: flex;
+}
+.headerLogo {
+    width: 3%;
+    height: 3%;
+}
+.headerName {
+    color: white;
+    position: relative;
+    top: 2%;
+    font-size: 30px;
+}
+.footerWrap {
+    width:100%;
+    position:fixed;
+    bottom: 0px;
+}
+.footer {
+    width:400px;
+    margin:auto;
+}
+.footerContent {
+    float:left;
+    width:100%;
+    
+    padding:20px 0;
+}
+.footer p {float:left; width:100%; text-align:center; }
+
+.buttonIcon {
+    color: rgb(228, 172, 18) ;
+    width: 30px !important;
+    height: 30px !important;
+}
+.dbuttonIcon {
+    color: rgb(228, 172, 18) ;
+    width: 30px !important;
+    height: 30px !important;
+}
+.buttonIcon:hover{
+    color:white ;
+    
+}
+.dbuttonIcon:hover {
+    color: white;
+}
+.main_note{
+   
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    width: 30%;
+    height: 40%;
+   box-shadow: 2px 3px 2px rgb(136, 136, 136);
+}
+input{
+    font-size: 20px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+textarea {
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+}
+div 
+{
+    border-radius: 10px;
+}
+Button {
+    position: relative;
+    top: 42%;
+    left: 50%;
+    bottom: 5px;
+    font-weight: bold;
+    font-size: 80px;
+}
+.button:hover {
+    background-color:rgb(228, 172, 18)  !important;
+    color: white;
+}
+
+.dbutton {
+    position: relative;
+    left: 69%;
+    top: -07%;
+
+}
+
+.dbutton:hover {
+    background-color:rgb(228, 172, 18)  !important;
+    color: white;
+}
+.note {
+    
+    margin-top: 2%;
+    width: 30%;
+    height: 40%;
+   box-shadow: 2px 3px 2px rgb(136, 136, 136);
+}
+.noteDiv{
+    display: inline-flex;
+    margin: 20px;
+    margin-top: 4%;
+}
